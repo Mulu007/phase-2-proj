@@ -13,11 +13,13 @@ const Products = () => {
   },[])
 
   return (
-    <div className='container-mx-auto'>
-      <div className='grid grid-cols-3 gap-4'>
-        {images.map(image => (
-          <ProductsCard key={image.id} image={image}/>
-        ))}
+    <div>
+      <div className="container-mx-auto">
+        <div className="grid grid-cols-5 gap-4">
+          {images.map((image) => (
+            <ProductsCard key={image.id} image={image} />
+          ))}
+        </div>
       </div>
     </div>
   );
