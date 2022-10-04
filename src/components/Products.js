@@ -3,11 +3,19 @@ import React, { useEffect, useState } from 'react'
 const Products = () => {
   const [images,setImages] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
-  const [term,setTerm] = useState('')
+  // const [term,setTerm] = useState('')
 
   useEffect(() => {
-    fetch(``)
-  })
+    fetch(`http://localhost:4000/shoes`)
+    .then(response => response.json())
+    .then(data => 
+      // console.log(data)
+      {setImages(data)
+        setIsLoading(false)
+      }
+      )
+  },[])
+
   return (
     <div className="max-w-sm rounded overflow-hidden shadow-lg">
       <img src="https://source.unsplash.com/random" alt="" className="w-full" />
