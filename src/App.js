@@ -3,7 +3,7 @@ import Section from "./components/Section";
 
 function App() {
   return (
-    <div className="text-red-500">
+    <div className="">
       <Navbar />
       <Section />
     </div>
