@@ -26,10 +26,10 @@ const Navbar = () => {
 
         <ul className='hidden md:flex gap-8 p-6 uppercase bg-white/10'>
             <li><Link to="/">Home</Link></li>
-            <li><Link to="/">About</Link></li>
-            <li><Link to="/">Contact</Link></li>
-            <li><Link to="/">Products</Link></li>
-            <li><Link to="/">Reviews</Link></li>
+            <li><Link to="/about">About</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
+            <li><Link to="/products">Products</Link></li>
+            <li><Link to="/reviews">Reviews</Link></li>
         </ul>
 
             <MenuItems showMenu={showMenu} active={active}/>
