@@ -1,0 +1,95 @@
+{
+    "shoes": [
+      {
+        "id": 1,
+        "name": "Rick Owens Geobasket",
+        "size": "EU 40",
+        "image": "https://process.fs.grailed.com/AJdAgnqCST4iPtnUxiGtTz/auto_image/cache=expiry:max/rotate=deg:exif/resize=height:1600,width:1200/output=quality:90/compress/CcDMlnHISuQNZA92Jryg",
+        "condition": "8.5/10 - Worn like 10 times. Very little heel drag. No marks on the leather. Very little creasing.",
+        "color": "Black & White",
+        "price": 720
+      },
+      {
+        "id": 2,
+        "name": "Rick Owens Wood Kiss Heels",
+        "size": "EU 42",
+        "image": "https://process.fs.grailed.com/AJdAgnqCST4iPtnUxiGtTz/auto_image/cache=expiry:max/rotate=deg:exif/resize=height:700/output=quality:90/compress/P2D3z5Y3TGeX52YksT4t",
+        "condition": "8.5/10 - Gently Used",
+        "color": "Black",
+        "price": 721
+      },
+      {
+        "id": 3,
+        "name": "RICK OWENS BOOTS",
+        "size": "EU 43",
+        "image": "https://process.fs.grailed.com/AJdAgnqCST4iPtnUxiGtTz/auto_image/cache=expiry:max/rotate=deg:exif/resize=height:700/output=quality:90/compress/itPwy4DSgmim7jyJJPl4",
+        "condition": "They are new",
+        "color": "Beige",
+        "price": 2673
+      },
+      {
+        "id": 4,
+        "name": "FW20 ‘PERFORMA’ Reverse Leather Bevel Kowboy Kiss Boots",
+        "size": "EU 44",
+        "image": "https://process.fs.grailed.com/AJdAgnqCST4iPtnUxiGtTz/auto_image/cache=expiry:max/rotate=deg:exif/resize=height:700/output=quality:90/compress/YMBEwqhwShljPOKqIdtn",
+        "condition": "They are gently used",
+        "color":"Dust",
+        "price": 8500
+      },
+      {
+        "id": 5,
+        "name": "A Cold Wall x Air Force 1 Low Black 2018",
+        "size": "EU 42",
+        "image": "https://process.fs.grailed.com/AJdAgnqCST4iPtnUxiGtTz/auto_image/cache=expiry:max/rotate=deg:exif/resize=height:700/output=quality:90/compress/yIgFNvHdSfG277B7Gdns",
+        "condition": "They are gently used",
+        "color": "Black",
+        "price": 175
+      },
+      {
+        "id": 6,
+        "name": "Calvin Klein 205W39NYC boots.",
+        "size": "US 8",
+        "image": "https://process.fs.grailed.com/AJdAgnqCST4iPtnUxiGtTz/auto_image/cache=expiry:max/rotate=deg:exif/resize=height:700/output=quality:90/compress/nm7ZWDUTWGLWcQNFDGxG",
+        "condition": "They are new",
+        "color": "Black",
+        "price": 797
+      },
+      {
+        "id": 7,
+        "name": "Green Tan Black Leather Shoes",
+        "size": "EU 41",
+        "image": "https://process.fs.grailed.com/AJdAgnqCST4iPtnUxiGtTz/auto_image/cache=expiry:max/rotate=deg:exif/resize=height:700/output=quality:90/compress/IJoudiMkTNiE7cuduJ03",
+        "condition": "They are new",
+        "color": "Black with green tan",
+        "price": 86
+      },
+      {
+        "id": 8,
+        "name": "Bottega Veneta Chelsea boots",
+        "size": "EU 41",
+        "image": "https://process.fs.grailed.com/AJdAgnqCST4iPtnUxiGtTz/auto_image/cache=expiry:max/rotate=deg:exif/resize=height:700/output=quality:90/compress/95Yn6cNGR7Kp0g0gTBDo",
+        "condition": "They are gently used",
+        "color": "Black",
+        "price": 600
+      },
+      {
+        "id": 9,
+        "name": "Bottega Veneta Puddle Ankle Boots",
+        "size": "EU 46",
+        "image": "https://process.fs.grailed.com/AJdAgnqCST4iPtnUxiGtTz/auto_image/cache=expiry:max/rotate=deg:exif/resize=height:700/output=quality:90/compress/25JuYAxMTNGkBkp7bPv1",
+        "condition": "They are new",
+        "color": "Navy",
+        "price": 650
+      },
+      {
+        "id": 10,
+        "name": "Bottega Veneta Daniel Lee Leather Quilted Slip On Wax",
+        "size": "EU 41",
+        "image": "https://process.fs.grailed.com/AJdAgnqCST4iPtnUxiGtTz/auto_image/cache=expiry:max/rotate=deg:exif/resize=height:700/output=quality:90/compress/m64fCJHpS5CkS2UuAdRw",
+        "condition": "They are new",
+        "color": "Wax",
+        "price": 2050
+      }
+    ]
+  }
+  
