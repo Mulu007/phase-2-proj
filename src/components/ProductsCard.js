@@ -5,19 +5,14 @@ const ProductsCard = ({image}) => {
     <div className="max-w-sm rounded overflow-hidden shadow-lg">
       <img src={image.image} alt="" className="w-full" />
       <div className="px-6 py-4">
-        <div className="font-bold text-purple-500 text-xl mb-2">
-          Photo by {image.condition}
+        <div className="font-bold text-black-500 text-xl mb-2 ">
+          Name: {image.name}
         </div>
         <ul>
-          <li>
-            <strong>Views:</strong>4000
-          </li>
-          <li>
-            <strong>Downloads:</strong>300
-          </li>
-          <li>
-            <strong>Likes:</strong>100
-          </li>
+          <li><strong>Size: </strong>{image.size}</li>
+          <li><strong>Color: </strong>{image.color}</li>
+          <li><strong>Condition: </strong>{image.condition}</li>
+          <li className='px=6 py-4 text-3xl'><strong>Price: </strong>{"$" +image.price}</li>
         </ul>
       </div>
       <div className="px=6 py-4 ">

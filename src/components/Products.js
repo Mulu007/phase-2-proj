@@ -3,18 +3,13 @@ import ProductsCard from './ProductsCard';
 
 const Products = () => {
   const [images,setImages] = useState([]);
-  const [isLoading, setIsLoading] = useState(true);
-  // const [term,setTerm] = useState('')
 
   useEffect(() => {
     fetch(`http://localhost:4000/shoes`)
     .then(response => response.json())
     .then(data => 
       // console.log(data)
-      {setImages(data)
-        setIsLoading(false)
-      }
-      )
+      {setImages(data)})
   },[])
 
   return (
