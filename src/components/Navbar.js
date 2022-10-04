@@ -18,11 +18,12 @@ const Navbar = () => {
       </div>
 
       <nav>
-           <div >
+           <div className=''>
                 <svg onClick= {showMenu} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                 </svg>
             </div> 
+
         <ul className='hidden md:flex gap-8 p-6 uppercase bg-white/10'>
             <li><Link to="/">Home</Link></li>
             <li><Link to="/">About</Link></li>
@@ -31,7 +32,7 @@ const Navbar = () => {
             <li><Link to="/">Reviews</Link></li>
         </ul>
 
-            <MenuItems />
+            <MenuItems showMenu={showMenu} active={active}/>
 
 
       </nav>
