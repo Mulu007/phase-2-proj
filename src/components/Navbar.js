@@ -5,7 +5,7 @@ const Navbar = () => {
     <div className='fixed w-full text-white flex justify-between p-4 items-center'>
 
       <div className="text-2xl font-bold text-center">
-        <h1>e <span>RARE</span></h1>
+        <h1>e <span className='block uppercase text-4xl'>RARE</span></h1>
       </div>
 
       <nav>
