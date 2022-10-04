@@ -10,10 +10,10 @@ const MenuItems = ({showMenu, active}) => {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
             </svg>
             <li><Link to="/">Home</Link></li>
-            <li><Link to="/">About</Link></li>
-            <li><Link to="/">Contact</Link></li>
-            <li><Link to="/">Products</Link></li>
-            <li><Link to="/">Reviews</Link></li>
+            <li><Link to="/about">About</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
+            <li><Link to="/products">Products</Link></li>
+            <li><Link to="/reviews">Reviews</Link></li>
         </ul>
     </div>
   )
