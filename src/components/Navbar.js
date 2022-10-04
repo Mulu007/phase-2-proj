@@ -1,4 +1,5 @@
 import React from 'react'
+import MenuItems from './MenuItems'
 
 const Navbar = () => {
   return (
@@ -18,6 +19,7 @@ const Navbar = () => {
             <li><Link to="/">Reviews</Link></li>
         </ul>
 
+            <MenuItems />
 
 
       </nav>
