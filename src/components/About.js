@@ -1,5 +1,5 @@
 import React from "react";
-import picture from "./assets/runway1.jpg"
+
 
 const About = () => {
   return (
