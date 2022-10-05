@@ -1,12 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const Contact = () => {
+  const [name, setName] = useState([])
+  const [submittedData, setSubmittedData] = useState([])
+  
   return (
     <div >
       <h1 className='text-3xl text-center font-extrabold '>Contact</h1>
-      <div className='container'>
-          
-      </div>
+      
       
     </div>
   )
