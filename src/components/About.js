@@ -1,14 +1,14 @@
 import React from "react";
-
+import picture1 from "./assets/runway1.jpg"
 
 const About = () => {
   return (
-    <div>
-      <h1 className="text-3xl text-center font-extrabold ">About</h1>
-      <img src="/assets/runway1.jpg" alt="" />
-      <div></div>
+    <div className="bg-black">
+      <h1 className="text-5xl text-center font-extrabold text-white">About</h1>
 
-      <p className="text-right">
+      
+
+      <p className="text-right text-white text-2xl">
         Rare's clean design and simple functionality make the experience about
         the product in a way that's inclusive and not intimidating. The three
         categories — Rare (highly sought after pieces from well known designers
@@ -25,7 +25,10 @@ const About = () => {
         this practice, streamlined it for the diehard shopper, and made it
         accessible to the more mainstream, casual consumer.
       </p>
-      <p className="text-left">
+      <div className="sm:block">
+        <img src="{picture1}" />
+      </div>
+      <p className="text-left text-white text-2xl">
         Rare Collection then hosts modelling events exhibiting their products.
         Modelling is considered to be different from other types of public
         performance, such as acting or dancing. Although the difference between
