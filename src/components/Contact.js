@@ -23,7 +23,44 @@ const Contact = () => {
     setMessage(event.target.value);
   }
 
-  const [errors, setErrors] = useState([])
+  function handleSubmit(event) {
+    event.preventDefault();
+  
+  const [errors, setErrors] = useState([]);
+
+    if (name.length > 0) {
+      const formData = {name: name, email: email, subject: subject, message: message}
+      const dataArray = [...submittedData, formData]
+      setSubmittedData(dataArray)
+      setName("")
+      setEmail("")
+      setMessage("")
+      setSubject("")
+      setErrors([])
+    } else {
+      setErrors(["Name is required!"])
+    }
+  }
+
+  const listOfSubmissions = submittedData.map((data, index) => {
+    return (
+      <div key={index}>
+        {data.name} {data.email} {data.subject} {data.message}
+      </div>
+    )
+  })
+
+  return (
+    <div>
+      <form onSubmit={handleSubmit}>
+        <input type="text" onChange={handleNameChange} value={name} />
+        <input type="text" onChange={handleNameChange} value={name} />
+        <input type="text" onChange={handleNameChange} value={name} />
+        <input type="text" onChange={handleNameChange} value={name} />
+      </form>
+    </div>
+  );
+  
 
   return (
     <div >
