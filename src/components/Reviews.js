@@ -96,7 +96,9 @@ const Reviews = () => {
             </p>
           ))
         : null}
-      <h3 className="text-white text-center text-3xl py-4">Submitted Reviews</h3>
+      <h3 className="text-white text-center text-3xl py-4">
+        Submitted Reviews
+      </h3>
       <div className="text-center text-white">{listOfSubmissions}</div>
     </div>
   );
