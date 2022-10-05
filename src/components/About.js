@@ -5,6 +5,10 @@ const About = () => {
     <div>
       <h1 className="text-3xl text-center font-extrabold ">About</h1>
       
+      <div className='container-mx-auto'>
+        
+      </div>
+      
       <p className='text-right'>
         Rare's clean design and simple functionality make the experience
         about the product in a way that's inclusive and not intimidating. The
