@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const About = () => {
   return (
@@ -24,18 +24,17 @@ const About = () => {
         this practice, streamlined it for the diehard shopper, and made it
         accessible to the more mainstream, casual consumer.
       </p>
-      <p>
+      <p className="text-left">
         Rare Collection then hosts modelling events exhibiting their products.
-        Modelling is considered to be different
-        from other types of public performance, such as acting or dancing.
-        Although the difference between modelling and performing is not always
-        clear, appearing in a film or a play is not generally considered to be
-        "modelling". 
-        Personal opinions are generally not expressed and a model's reputation
-        and image are considered critical.
+        Modelling is considered to be different from other types of public
+        performance, such as acting or dancing. Although the difference between
+        modelling and performing is not always clear, appearing in a film or a
+        play is not generally considered to be "modelling". Personal opinions
+        are generally not expressed and a model's reputation and image are
+        considered critical.
       </p>
     </div>
   );
-}
+};
 
-export default About
+export default About;
