@@ -17,12 +17,16 @@ const Products = () => {
 
   return (
     <div>
-      <div className="container-mx-auto">
+      <div className="text-4xl text-center font-bold py-4">
+        <h1>Products</h1>
+      </div>
+      <div className="container-mx-auto ">
         
         <div className="grid grid-cols-5 gap-4">
           {images.map((image) => (
             <ProductsCard key={image.id} image={image} />
           ))}
+
         </div>
       </div>
     </div>
