@@ -5,7 +5,7 @@ const Products = () => {
   const [images, setImages] = useState([]);
 
   useEffect(() => {
-    fetch(`http://localhost:4000/shoes`)
+    fetch(`http://localhost:4000/products`)
       .then((response) => response.json())
       .then((data) =>
         // console.log(data)
@@ -16,7 +16,7 @@ const Products = () => {
   }, []);
 
   return (
-    <div>
+    <div className="bg-slate-300">
       <div className="text-4xl text-center font-bold py-4">
         <h1>Products</h1>
       </div>

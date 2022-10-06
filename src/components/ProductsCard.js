@@ -6,7 +6,7 @@ const ProductsCard = ({image}) => {
       {/* <div>
         <h1 className="text-3xl text-center font-extrabold ">Products</h1>
       </div> */}
-      <div className="max-w-sm rounded overflow-hidden shadow-lg">
+      <div className="max-w-sm rounded overflow-hidden shadow-2xl">
         <img src={image.image} alt="" className=" float-left w-full" />
         <div className="px-6 py-4">
           <div className="font-bold text-black-500 text-xl mb-2 underline-offset-auto">
