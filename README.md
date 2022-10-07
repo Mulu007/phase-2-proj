@@ -8,6 +8,16 @@ Rare Collection is a cloth-reselling company that sells fashion products online 
 
 SILVANIUS . B . MULU
 
+## Technologies Used
+* JSX
+* Tailwind
+* React
+<p align="center">
+  <a href="https://vercel.com">
+    <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fsymbols-electrical.getvecta.com%2Fstencil_25%2F70_react.76a8d36b4b.svg&imgrefurl=https%3A%2F%2Fsymbols.radicasoftware.com%2F25%2Fweb-technologies%2F70%2Freact&tbnid=93CcWtazP--DdM&vet=12ahUKEwjIqIik5836AhUSUBoKHa1kCjEQMygBegUIARC9AQ..i&docid=DmnCLC7NiWFq6M&w=800&h=800&q=react%20symbol&ved=2ahUKEwjIqIik5836AhUSUBoKHa1kCjEQMygBegUIARC9AQ" height="96">
+    <h3 align="center">Vercel</h3>
+  </a>
+</p>
 
 ## Setup Instructions
 * Installation of the Visual studio code.
@@ -18,7 +28,7 @@ SILVANIUS . B . MULU
 * Publisihing of the project on Github using Github-pages.
 
 
-## clone repo
+##  Cloning repository
 
 * clone the Front-end repository using the command: [ git clone https://github.com/Mulu007/phase-2-proj]
 
@@ -50,7 +60,8 @@ https://phase-2-proj.vercel.app
 
 ##  PROJECT DEPLOYMENT
 
-### Single React App on Heroku
+### BACK-END DEPLOYMENT
+#### Single React App on Heroku
 
 1) Create a Heroku account.
 2) Create your app.
@@ -78,7 +89,8 @@ git commit -am "my first commit"
 git push heroku master
 ```
 
-### Single React App on Vercel
+### FRONT-END DEPLOYMENT
+#### Single React App on Vercel
 
 * Create a Vercel account
 * Link the vercel account tp your main github account
