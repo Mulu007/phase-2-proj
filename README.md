@@ -30,13 +30,18 @@ SILVANIUS . B . MULU
 
 
 ## Website Peek
-###Home Page
+
+### Home Page
+
 ![Website Screenshot](https://github.com/Mulu007/phase-2-proj/blob/main/src/components/assets/website%20screenshots/Home.png?raw=true)
-###About Page
+### About Page
+
 ![Website Screenshot](https://github.com/Mulu007/phase-2-proj/blob/main/src/components/assets/website%20screenshots/About.png?raw=true)
-###Products Page
+### Products Page
+
 ![Website Screenshot](https://github.com/Mulu007/phase-2-proj/blob/main/src/components/assets/website%20screenshots/Products.png?raw=true)
-###Contact Page
+### Contact Page
+
 ![Website Screenshot](https://github.com/Mulu007/phase-2-proj/blob/main/src/components/assets/website%20screenshots/Contact.png?raw=true)
 
 ## LIVE SITE
