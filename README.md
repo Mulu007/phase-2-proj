@@ -10,12 +10,12 @@ SILVANIUS . B . MULU
 
 
 ## Setup Instructions
-* 1)Installation of the Visual studio code.
-* 2)Git cloning the repository.
-* 3)Make sure the live server extension is installed .
-* 4)Click on Go live .
-* 5)Initializing of git ,git add files,git commit and git push on a different branch.
-* 6)Publisihing of the project on Github using Github-pages.
+* Installation of the Visual studio code.
+* Git cloning the repository.
+* Make sure the live server extension is installed .
+* Click on Go live .
+* Initializing of git ,git add files,git commit and git push on a different branch.
+* Publisihing of the project on Github using Github-pages.
 
 
 ## clone repo
@@ -80,10 +80,10 @@ git push heroku master
 
 ### Single React App on Vercel
 
-* 1) Create a Vercel account
-* 2) Link the vercel account tp your main github account
-* 3) Import the front-end repository 
-* 4) Deploy the front-end repository  
+* Create a Vercel account
+* Link the vercel account tp your main github account
+* Import the front-end repository 
+* Deploy the front-end repository  
 
 ## License
 
