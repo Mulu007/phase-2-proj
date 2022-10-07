@@ -5,7 +5,7 @@ const Products = () => {
   const [images, setImages] = useState([]);
 
   useEffect(() => {
-    fetch(`http://localhost:4000/products`)
+    fetch(`https://phase-2-proj-api.herokuapp.com/products`)
       .then((response) => response.json())
       .then((data) =>
         // console.log(data)
