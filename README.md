@@ -12,12 +12,6 @@ SILVANIUS . B . MULU
 * JSX
 * Tailwind
 * React
-<p align="center">
-  <a href="https://vercel.com">
-    <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fsymbols-electrical.getvecta.com%2Fstencil_25%2F70_react.76a8d36b4b.svg&imgrefurl=https%3A%2F%2Fsymbols.radicasoftware.com%2F25%2Fweb-technologies%2F70%2Freact&tbnid=93CcWtazP--DdM&vet=12ahUKEwjIqIik5836AhUSUBoKHa1kCjEQMygBegUIARC9AQ..i&docid=DmnCLC7NiWFq6M&w=800&h=800&q=react%20symbol&ved=2ahUKEwjIqIik5836AhUSUBoKHa1kCjEQMygBegUIARC9AQ" height="96">
-    <h3 align="center">Vercel</h3>
-  </a>
-</p>
 
 ## Setup Instructions
 * Installation of the Visual studio code.
