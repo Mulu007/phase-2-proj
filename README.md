@@ -48,6 +48,43 @@ SILVANIUS . B . MULU
 
 https://phase-2-proj.vercel.app
 
+##  PROJECT DEPLOYMENT
+
+### Single React App on Heroku
+
+1) Create a Heroku account.
+2) Create your app.
+3) Download Heroku CLI from [here](https://devcenter.heroku.com/articles/heroku-cli#download-and-install).
+4) Run these codes.
+```bash
+heroku login
+```
+```bash
+git init
+```
+```bash
+heroku git:remote -a <app-name>
+```
+```bash
+heroku create -b https://github.com/mars/create-react-app-buildpack.git
+```
+```bash
+git add .
+```
+```bash
+git commit -am "my first commit"
+```
+```bash
+git push heroku master
+```
+
+### Single React App on Vercel
+
+* 1) Create a Vercel account
+* 2) Link the vercel account tp your main github account
+* 3) Import the front-end repository 
+* 4) Deploy the front-end repository  
+
 ## License
 
 Copyright (c)2022 Silvanius.B.Mulu
